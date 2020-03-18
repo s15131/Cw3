@@ -43,7 +43,7 @@ namespace Cw3.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteStudent(int id)
         {
-            return Ok("Student Usunięty");
+            return Ok("Usuwanie ukończone");
         }
     }
 }
